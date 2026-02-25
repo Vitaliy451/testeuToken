@@ -41,11 +41,11 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1772018949072,
+      "lastUpdateTs" : 1772021998386,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -61,8 +61,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1772018350380,
-      "longValue" : 1772018347437,
+      "lastUpdateTs" : 1772022190381,
+      "longValue" : 1772022190329,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {

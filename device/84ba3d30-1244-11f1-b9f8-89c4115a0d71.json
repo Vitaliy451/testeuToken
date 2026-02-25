@@ -2,13 +2,13 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : false,
+      "gateway" : true,
       "overwriteActivityTime" : false,
-      "description" : "Test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test"
+      "description" : "testsetsetststsetststsetstsetstestes"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "14c9c470-3011-11f0-8c90-21e87ff8c6cc"
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
     "deviceData" : {
       "configuration" : {
@@ -20,25 +20,22 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "aac545f0-84ce-11f0-9dcf-813811befd2b"
+      "id" : "fa6ccd50-f7ae-11f0-ac05-ad8ff9a222e9"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "eec00860-1242-11f1-8473-814ba6545685"
+      "id" : "84ba3d30-1244-11f1-b9f8-89c4115a0d71"
     },
-    "label" : "",
-    "name" : "teapot",
-    "ownerId" : {
-      "entityType" : "CUSTOMER",
-      "id" : "14c9c470-3011-11f0-8c90-21e87ff8c6cc"
-    },
+    "label" : "gatewayDoor",
+    "name" : "gatewayDoor",
+    "ownerId" : null,
     "softwareId" : null,
-    "type" : "thermostat"
+    "type" : "Custom Profile"
   },
   "credentials" : {
-    "credentialsId" : "v5177x6eJhFKzfjtj6Fd",
+    "credentialsId" : "1UoxRb8Z7BfCys9Ed7iT",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -49,16 +46,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1772022026348,
+      "lastUpdateTs" : 1772022091947,
       "longValue" : null,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1772022026343,
-      "longValue" : 1772022026342,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

@@ -4,11 +4,11 @@
     "additionalInfo" : {
       "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : "Test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test"
+      "description" : ""
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "14c9c470-3011-11f0-8c90-21e87ff8c6cc"
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
     "deviceData" : {
       "configuration" : {
@@ -20,25 +20,22 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "aac545f0-84ce-11f0-9dcf-813811befd2b"
+      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "eec00860-1242-11f1-8473-814ba6545685"
+      "id" : "726231b0-1244-11f1-afb5-b19ced4e378a"
     },
     "label" : "",
-    "name" : "teapot",
-    "ownerId" : {
-      "entityType" : "CUSTOMER",
-      "id" : "14c9c470-3011-11f0-8c90-21e87ff8c6cc"
-    },
+    "name" : "door",
+    "ownerId" : null,
     "softwareId" : null,
-    "type" : "thermostat"
+    "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "v5177x6eJhFKzfjtj6Fd",
+    "credentialsId" : "Iu3eRmWxfAChSum5OBRZ",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -49,16 +46,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1772022026348,
+      "lastUpdateTs" : 1772022061176,
       "longValue" : null,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1772022026343,
-      "longValue" : 1772022026342,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
