@@ -1,0 +1,59 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "Test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "14c9c470-3011-11f0-8c90-21e87ff8c6cc"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "aac545f0-84ce-11f0-9dcf-813811befd2b"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "eec00860-1242-11f1-8473-814ba6545685"
+    },
+    "label" : "",
+    "name" : "teapot",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "14c9c470-3011-11f0-8c90-21e87ff8c6cc"
+    },
+    "softwareId" : null,
+    "type" : "thermostat"
+  },
+  "credentials" : {
+    "credentialsId" : "v5177x6eJhFKzfjtj6Fd",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1772021410840,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

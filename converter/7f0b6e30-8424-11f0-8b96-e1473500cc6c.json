@@ -1,0 +1,47 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : "// Decode an uplink message from a buffer\n// payload - array of bytes\n// metadata - key/value object\n\n/** Decoder **/\n \n// decode payload to string\n// var payloadStr = decodeToString(payload);\n\n// decode payload to JSON\nvar data = decodeToJson(payload);\n\nvar deviceName = data.deviceName;\nvar deviceType = data.deviceType;\n\n// Result object with device attributes/telemetry data\nvar result = {\n   deviceName: deviceName,\n   deviceType: deviceType,\n   attributes: {\n       model: data.model,\n       serialNumber: data.param2,\n   },\n   telemetry: {\n       temperature: data.temperature\n   }\n};\n\n/** Helper functions 'decodeToString' and 'decodeToJson' are already built-in **/\n\nreturn result;",
+      "encoder" : null,
+      "tbelEncoder" : null,
+      "updateOnlyKeys" : [ "manufacturer" ],
+      "type" : "DEVICE",
+      "name" : "",
+      "profile" : "",
+      "label" : "",
+      "customer" : "",
+      "group" : "",
+      "telemetry" : null,
+      "attributes" : null
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1756396173363,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "7f0b6e30-8424-11f0-8b96-e1473500cc6c"
+    },
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "7f0b6e30-8424-11f0-8b96-e1473500cc6c"
+    },
+    "integrationType" : "HTTP",
+    "name" : "Uplink data converter for HTTP integration",
+    "type" : "UPLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

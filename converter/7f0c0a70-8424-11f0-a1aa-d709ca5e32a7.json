@@ -1,0 +1,47 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : null,
+      "encoder" : null,
+      "tbelEncoder" : "// Encode downlink data from incoming Rule Engine message\n\n// msg - JSON message payload downlink message json\n// msgType - type of message, for ex. 'ATTRIBUTES_UPDATED', 'POST_TELEMETRY_REQUEST', etc.\n// metadata - list of key-value pairs with additional data about the message\n// integrationMetadata - list of key-value pairs with additional data defined in Integration executing this converter\n\nvar result = {\n\n    // downlink data content type: JSON, TEXT or BINARY (base64 format)\n    contentType: \"JSON\",\n\n    // downlink data\n    data: JSON.stringify(msg),\n\n    // Optional metadata object presented in key/value format\n    metadata: {\n    }\n};\n\nreturn result;",
+      "updateOnlyKeys" : null,
+      "type" : "DEVICE",
+      "name" : "",
+      "profile" : "",
+      "label" : "",
+      "customer" : "",
+      "group" : "",
+      "telemetry" : null,
+      "attributes" : null
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1756396173367,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "7f0c0a70-8424-11f0-a1aa-d709ca5e32a7"
+    },
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "7f0c0a70-8424-11f0-a1aa-d709ca5e32a7"
+    },
+    "integrationType" : "HTTP",
+    "name" : "Downlink data converter for HTTP integration",
+    "type" : "DOWNLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

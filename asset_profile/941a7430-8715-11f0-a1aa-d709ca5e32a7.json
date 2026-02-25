@@ -1,0 +1,32 @@
+{
+  "entityType" : "ASSET_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "de3635b0-3010-11f0-8a95-4f20f9529836"
+    },
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : "HighPriority",
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "2eb683d0-0322-11f0-8f83-43727cd6bc90"
+    },
+    "description" : null,
+    "externalId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "941a7430-8715-11f0-a1aa-d709ca5e32a7"
+    },
+    "id" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "941a7430-8715-11f0-a1aa-d709ca5e32a7"
+    },
+    "image" : "tb-image;/api/images/tenant/Vitaliy tenant icon.png",
+    "name" : "Test123"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

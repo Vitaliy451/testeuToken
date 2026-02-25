@@ -1,0 +1,39 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : "/** Decoder **/\n\n// decode payload to string\nvar payloadStr = decodeToString(payload);\nvar data = JSON.parse(payloadStr);\n\nvar deviceName =  metadata.topic.split(\"/\")[3];\n// decode payload to JSON\nvar deviceType = 'sensor';\n\n// Result object with device attributes/telemetry data\nvar result = {\n    deviceName: deviceName,\n    deviceType: deviceType,\n    attributes: {\n        integrationName: metadata['integrationName'],\n    },\n    telemetry: {\n        temperature: data.value,\n    }\n};\n\n/** Helper functions 'decodeToString' and 'decodeToJson' are already built-in **/\n\nreturn result;",
+      "encoder" : null,
+      "tbelEncoder" : null,
+      "updateOnlyKeys" : [ "manufacturer" ]
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1756457222343,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "48ffb041-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "48ffb041-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "integrationType" : "MQTT",
+    "name" : "Uplink data converter for MQTT integration",
+    "type" : "UPLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

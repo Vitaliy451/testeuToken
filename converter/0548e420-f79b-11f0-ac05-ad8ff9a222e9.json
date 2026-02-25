@@ -1,0 +1,39 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : null,
+      "encoder" : null,
+      "tbelEncoder" : "// Result object with encoded downlink payload\nvar result = {\n\n    // downlink data content type: JSON, TEXT or BINARY (base64 format)\n    contentType: \"JSON\",\n\n    // downlink data\n    data: JSON.stringify(msg),\n\n    // Optional metadata object presented in key/value format\n    metadata: {}\n\n};\n\nreturn result;",
+      "updateOnlyKeys" : null
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1769094067711,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "0548e420-f79b-11f0-ac05-ad8ff9a222e9"
+    },
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "0548e420-f79b-11f0-ac05-ad8ff9a222e9"
+    },
+    "integrationType" : "UDP",
+    "name" : "Downlink data converter for UDP integration",
+    "type" : "DOWNLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

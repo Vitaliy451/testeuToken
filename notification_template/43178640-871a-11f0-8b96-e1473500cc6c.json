@@ -1,0 +1,43 @@
+{
+  "entityType" : "NOTIFICATION_TEMPLATE",
+  "entity" : {
+    "configuration" : {
+      "attachReport" : false,
+      "deliveryMethodsTemplates" : {
+        "MOBILE_APP" : {
+          "method" : "MOBILE_APP",
+          "additionalConfig" : {
+            "icon" : {
+              "enabled" : true,
+              "icon" : "extension",
+              "color" : "#FF0004"
+            },
+            "onClick" : {
+              "enabled" : true,
+              "linkType" : "DASHBOARD",
+              "dashboardId" : "de3635b0-3010-11f0-8a95-4f20f9529836",
+              "dashboardState" : "default",
+              "setEntityIdInState" : true
+            }
+          },
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+          "enabled" : true,
+          "subject" : "Mobile test"
+        }
+      },
+      "reportTemplateId" : null,
+      "timezone" : null,
+      "userId" : null
+    },
+    "externalId" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "43178640-871a-11f0-8b96-e1473500cc6c"
+    },
+    "id" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "43178640-871a-11f0-8b96-e1473500cc6c"
+    },
+    "name" : "Mobile test",
+    "notificationType" : "GENERAL"
+  }
+}

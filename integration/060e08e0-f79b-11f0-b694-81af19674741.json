@@ -1,0 +1,104 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "clientConfiguration" : {
+        "port" : 11560,
+        "soBroadcast" : true,
+        "soRcvBuf" : 64,
+        "cacheSize" : 1000,
+        "timeToLiveInMinutes" : 1440,
+        "handlerConfiguration" : {
+          "handlerType" : "JSON",
+          "charsetName" : "UTF-8",
+          "maxFrameLength" : 128
+        }
+      }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1769093579439,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "0548bd10-f79b-11f0-b694-81af19674741"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "0548e420-f79b-11f0-ac05-ad8ff9a222e9"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "060e08e0-f79b-11f0-b694-81af19674741"
+    },
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "060e08e0-f79b-11f0-b694-81af19674741"
+    },
+    "name" : "UDP integration",
+    "remote" : true,
+    "routingKey" : "7c797e45-7dde-4907-2e31-f28271c1f45a",
+    "secret" : "1z3n5o1b591iabjglzkc",
+    "type" : "UDP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "060e08e0-f79b-11f0-b694-81af19674741"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "dc397fc0-f79c-11f0-8445-478f4e731979"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 13112146
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "060e08e0-f79b-11f0-b694-81af19674741"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0f5cf890-f79e-11f0-8445-478f4e731979"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 13112142
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "060e08e0-f79b-11f0-b694-81af19674741"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "644c5b90-f79c-11f0-8445-478f4e731979"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 13112144
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_[remote:8082]",
+      "lastUpdateTs" : 1772013202031,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "clientConfiguration" : {
+        "port" : 10560,
+        "soBacklogOption" : 128,
+        "soRcvBuf" : 64,
+        "soSndBuf" : 64,
+        "soKeepaliveOption" : false,
+        "tcpNoDelay" : true,
+        "cacheSize" : 1000,
+        "timeToLiveInMinutes" : 1440,
+        "handlerConfiguration" : {
+          "handlerType" : "JSON",
+          "byteOrder" : "LITTLE_ENDIAN",
+          "maxFrameLength" : 128,
+          "lengthFieldOffset" : 0,
+          "lengthFieldLength" : 2,
+          "lengthAdjustment" : 0,
+          "initialBytesToStrip" : 0,
+          "failFast" : false,
+          "stripDelimiter" : true,
+          "messageSeparator" : "SYSTEM_LINE_SEPARATOR",
+          "customSeparatorRawValue" : null
+        }
+      }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1769090533963,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "00d8cee0-f792-11f0-b694-81af19674741"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "00da0760-f792-11f0-8445-478f4e731979"
+    },
+    "edgeTemplate" : false,
+    "enabled" : false,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "010f9650-f792-11f0-b694-81af19674741"
+    },
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "010f9650-f792-11f0-b694-81af19674741"
+    },
+    "name" : "TCP integration",
+    "remote" : true,
+    "routingKey" : "5cbfc5ea-1f70-8c1b-a548-84292fb702c3",
+    "secret" : "jo7ic708ps96y3b7def6",
+    "type" : "TCP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "010f9650-f792-11f0-b694-81af19674741"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "47288bc0-f796-11f0-b694-81af19674741"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 13112132
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

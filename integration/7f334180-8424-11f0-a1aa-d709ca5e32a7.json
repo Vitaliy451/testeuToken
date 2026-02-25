@@ -1,0 +1,63 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : false,
+    "configuration" : {
+      "metadata" : { },
+      "baseUrl" : "https://eu.thingsboard.cloud",
+      "httpEndpoint" : "https://eu.thingsboard.cloud/api/v1/integrations/http/09555d64-6f08-f503-f7ca-1135e06b2fc7",
+      "enableSecurity" : false,
+      "headersFilter" : { },
+      "replaceNoContentToOk" : false
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1756396173624,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "7f0b6e30-8424-11f0-8b96-e1473500cc6c"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "7f0c0a70-8424-11f0-a1aa-d709ca5e32a7"
+    },
+    "edgeTemplate" : false,
+    "enabled" : false,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "7f334180-8424-11f0-a1aa-d709ca5e32a7"
+    },
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "7f334180-8424-11f0-a1aa-d709ca5e32a7"
+    },
+    "name" : "HTTP integration",
+    "remote" : false,
+    "routingKey" : "09555d64-6f08-f503-f7ca-1135e06b2fc7",
+    "secret" : "c904cgy7otg6pv6o8pi4",
+    "type" : "HTTP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "7f334180-8424-11f0-a1aa-d709ca5e32a7"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c526aa60-8424-11f0-8b96-e1473500cc6c"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 13112136
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
