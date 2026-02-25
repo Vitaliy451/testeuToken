@@ -143,19 +143,6 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "fef6fd10-84b2-11f0-a1aa-d709ca5e32a7"
-    },
-    "type" : "ManagedByIntegration",
-    "typeGroup" : "COMMON",
-    "version" : 14687191
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "INTEGRATION",
-      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
       "id" : "01d06a00-a3fb-11f0-9318-23f6dca13fef"
     },
     "type" : "ManagedByIntegration",
