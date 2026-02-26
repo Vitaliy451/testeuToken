@@ -7,14 +7,76 @@
     "mobileOrder" : null,
     "configuration" : {
       "description" : "",
-      "widgets" : { },
+      "widgets" : {
+        "e7ad79c1-8a5a-b843-ae07-ab48eaa91250" : {
+          "typeFullFqn" : "system.input_widgets.web_camera_input",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "c575f410-f7ad-11f0-ac05-ad8ff9a222e9",
+              "dataKeys" : [ {
+                "name" : "temperature",
+                "type" : "timeseries",
+                "label" : "temperature",
+                "color" : "#2196f3",
+                "settings" : { }
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "widgetTitle" : "",
+              "saveToGallery" : true,
+              "usePublicGalleryLink" : false,
+              "imageFormat" : "image/png",
+              "imageQuality" : 0.92,
+              "maxWidth" : 640,
+              "maxHeight" : 480
+            },
+            "title" : "Photo camera input",
+            "showTitleIcon" : false,
+            "titleIcon" : "more_horiz",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false,
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "e7ad79c1-8a5a-b843-ae07-ab48eaa91250"
+        }
+      },
       "states" : {
         "default" : {
           "name" : "test",
           "root" : true,
           "layouts" : {
             "main" : {
-              "widgets" : { },
+              "widgets" : {
+                "e7ad79c1-8a5a-b843-ae07-ab48eaa91250" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
               "gridSettings" : {
                 "layoutType" : "default",
                 "backgroundColor" : "#eeeeee",
@@ -61,8 +123,8 @@
     },
     "ownerId" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
-  }
+  },
+  "calculatedFields" : [ ]
 }
