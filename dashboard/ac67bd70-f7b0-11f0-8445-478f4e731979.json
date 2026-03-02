@@ -205,7 +205,7 @@
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
         "showDashboardExport" : true,
-        "toolbarAlwaysOpen" : true,
+        "toolbarAlwaysOpen" : false,
         "titleColor" : "rgb(193, 0, 255)",
         "showDashboardLogo" : true,
         "dashboardLogoUrl" : "tb-image;/api/images/tenant/alien-svgrepo-com.svg",
