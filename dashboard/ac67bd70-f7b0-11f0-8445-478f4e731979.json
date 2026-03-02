@@ -200,7 +200,7 @@
       },
       "settings" : {
         "stateControllerId" : "entity",
-        "showTitle" : true,
+        "showTitle" : false,
         "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
