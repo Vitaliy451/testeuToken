@@ -200,7 +200,7 @@
       },
       "settings" : {
         "stateControllerId" : "entity",
-        "showTitle" : true,
+        "showTitle" : false,
         "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
@@ -209,7 +209,7 @@
         "titleColor" : "rgba(147, 0, 255, 0.87)",
         "showDashboardLogo" : true,
         "dashboardLogoUrl" : "tb-image;/api/images/tenant/alien-svgrepo-com.svg",
-        "hideToolbar" : true,
+        "hideToolbar" : false,
         "showFilters" : true,
         "showUpdateDashboardImage" : true
       }
