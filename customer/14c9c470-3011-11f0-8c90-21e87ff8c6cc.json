@@ -30,7 +30,6 @@
     "title" : "My Customer",
     "zip" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   },
